@@ -16,6 +16,7 @@ workflows to classic bodies of knowledge, modeling notations, and templates.
 - [Requirements as Code](#requirements-as-code)
 - [Modeling & Diagrams as Code](#modeling--diagrams-as-code)
 - [Integration Analysis](#integration-analysis)
+- [Product Analysis](#product-analysis)
 - [Requirements Management Tools](#requirements-management-tools)
 - [Frameworks & Bodies of Knowledge](#frameworks--bodies-of-knowledge)
 - [Domains](#domains)
@@ -87,6 +88,21 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 - [gRPC](https://grpc.io) - High-performance RPC framework using Protocol Buffers contracts.
 - [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
+## Product Analysis
+
+Understanding product usage, opportunities, and outcomes to inform what to build.
+
+- [Amplitude](https://amplitude.com) - Product analytics for user behavior, funnels, and retention.
+- [Mixpanel](https://mixpanel.com) - Event-based product analytics and engagement metrics.
+- [PostHog](https://posthog.com) - Open-source product analytics, session replay, and experiments.
+- [Productboard](https://www.productboard.com) - Centralizes feedback and insights to prioritize the roadmap.
+- [Dovetail](https://dovetail.com) - Customer research repository for synthesizing user insights.
+- [GrowthBook](https://www.growthbook.io) - Open-source feature flagging and A/B testing.
+- [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
+- [Jobs to be Done](https://jtbd.info) - Framework for the progress customers are trying to make.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
