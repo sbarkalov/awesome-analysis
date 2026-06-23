@@ -178,6 +178,14 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [Modern Analyst Forums](https://www.modernanalyst.com/Community.aspx) - Long-running community Q&A for analysts.
 - [IIBA Chapters](https://www.iiba.org/iiba-chapters/) - Local chapters for networking and events worldwide.
 
+## Related Lists
+
+Adjacent domains, including data analysis — the quantitative subdomain this list deliberately
+hands off to rather than duplicates.
+
+- [Awesome Data Analysis](https://github.com/PavelGrigoryevDS/awesome-data-analysis) - Data analysis resources: Python, SQL, statistics, and visualization.
+- [Awesome Data Science](https://github.com/academic/awesome-datascience) - Broad data science list spanning analysis, modeling, and learning paths.
+
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
