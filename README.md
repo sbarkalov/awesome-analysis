@@ -23,8 +23,6 @@ Entries are ordered roughly from **modern and widely-adopted** at the top of eac
 - [Learning Resources](#learning-resources)
 - [Books](#books)
 - [Community](#community)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## AI & Agentic Analysis
 
@@ -99,7 +97,7 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 The canonical standards and *BOK references that define the profession.
 
 - [BABOK Guide](https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/) - IIBA's Business Analysis Body of Knowledge, the core reference for BAs.
-- [IREB CPRE](https://www.ireb.org/en/cpre/) - Requirements engineering body of knowledge and certification syllabus.
+- [IREB](https://www.ireb.org) - Requirements Engineering Board: bodies of knowledge and syllabi.
 - [BPM CBOK](https://www.abpmp.org) - ABPMP's Business Process Management Common Body of Knowledge.
 - [PMBOK Guide](https://www.pmi.org) - PMI's project management body of knowledge, adjacent to analysis work.
 - [SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering) - IEEE's Software Engineering Body of Knowledge.
@@ -184,9 +182,8 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## License
+---
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related or
-neighboring rights to this work. See [LICENSE](LICENSE) for details.
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/) To the extent
+possible under law, the contributors have waived all copyright and related or neighboring rights to
+this work. See [LICENSE](LICENSE) for details.
