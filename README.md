@@ -6,9 +6,6 @@ Business and systems analysis turns stakeholder needs into clear, verifiable req
 designs. This list collects the best of the discipline — from AI-assisted and code-driven
 workflows to classic bodies of knowledge, modeling notations, and templates.
 
-Entries are ordered roughly from **modern and widely-adopted** at the top of each section to
-**more specialized or foundational** toward the bottom.
-
 ## Contents
 
 - [AI & Agentic Analysis](#ai--agentic-analysis)
@@ -36,6 +33,8 @@ Using LLMs and autonomous agents to elicit, draft, refine, and trace requirement
 - [LangChain](https://www.langchain.com) - Framework for building custom analysis and elicitation agents.
 - [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Patterns and examples for building agentic workflows.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Requirements as Code
 
 Treating requirements and specifications as plain-text, version-controlled artifacts.
@@ -50,6 +49,8 @@ Treating requirements and specifications as plain-text, version-controlled artif
 - [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version-controlled text files.
 - [OpenFastTrace](https://github.com/itsallcode/openfasttrace) - Requirements tracing suite for plain-text artifacts.
 - [ReqIF](https://www.omg.org/reqif/) - OMG standard for exchanging requirements between tools.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Modeling & Diagrams as Code
 
@@ -67,6 +68,8 @@ Notations and tools for process, data, and architecture models — text-first wh
 - [UML](https://www.uml.org) - OMG's Unified Modeling Language for software systems.
 - [Archi](https://www.archimatetool.com) - Open-source modeling tool for the ArchiMate enterprise architecture language.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Integration Analysis
 
 Designing and analyzing interfaces, contracts, and data exchange between systems.
@@ -81,6 +84,8 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 - [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Requirements Management Tools
 
 - [Jira](https://www.atlassian.com/software/jira) - Widely-used issue and backlog tracker for agile teams.
@@ -91,6 +96,8 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 - [Jama Connect](https://www.jamasoftware.com) - Requirements, risk, and test management for complex products.
 - [IBM DOORS Next](https://www.ibm.com/products/requirements-management-doors-next) - Enterprise requirements management for regulated industries.
 - [ReqView](https://www.reqview.com) - Lightweight requirements management with full traceability.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Frameworks & Bodies of Knowledge
 
@@ -104,6 +111,8 @@ The canonical standards and *BOK references that define the profession.
 - [DAMA-DMBOK](https://www.dama.org) - Data Management Body of Knowledge for data-focused analysis.
 - [TOGAF](https://www.opengroup.org/togaf) - The Open Group's enterprise architecture framework.
 - [ISO/IEC/IEEE 29148](https://www.iso.org/standard/72089.html) - International standard for requirements engineering.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Domains
 
@@ -141,6 +150,8 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [GS1](https://www.gs1.org) - Supply-chain standards for product identification and data exchange.
 - [FpML](https://www.fpml.org) - XML standard for complex financial derivatives.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Templates
 
 - [arc42](https://arc42.org) - Pragmatic template for documenting software architectures.
@@ -150,6 +161,8 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [User Story Mapping](https://www.jpattonassociates.com/story-mapping/) - Technique and template for framing backlogs around user journeys.
 - [Business Analysis Templates](https://github.com/joelparkerhenderson/business-analysis) - Collection of practical BA templates and checklists.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Certifications
 
 - [IIBA Certifications](https://www.iiba.org/business-analysis-certifications/) - ECBA, CCBA, CBAP, plus specialized credentials (agile, data, product).
@@ -157,12 +170,16 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [IREB CPRE](https://www.ireb.org/en/cpre/) - Certified Professional for Requirements Engineering.
 - [BCS Business Analysis](https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis-certifications/) - BCS (ISEB) diploma and certificates in business analysis.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Learning Resources
 
 - [Modern Analyst](https://www.modernanalyst.com) - Articles, templates, and a large BA community library.
 - [Bridging the Gap](https://www.bridging-the-gap.com) - Practical guidance for new and transitioning business analysts.
 - [BA Times](https://www.batimes.com) - News, articles, and webinars on business analysis.
 - [IIBA](https://www.iiba.org) - The International Institute of Business Analysis and its resources.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Books
 
@@ -172,11 +189,15 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [Writing Effective Use Cases](https://www.pearson.com/en-us/subject-catalog/p/writing-effective-use-cases/P200000009127) - By Alistair Cockburn; the classic on use cases.
 - [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - By Eric Evans; modeling complex business domains.
 
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
 ## Community
 
 - [r/businessanalysis](https://www.reddit.com/r/businessanalysis/) - Subreddit for business analysis discussion.
 - [Modern Analyst Forums](https://www.modernanalyst.com/Community.aspx) - Long-running community Q&A for analysts.
 - [IIBA Chapters](https://www.iiba.org/iiba-chapters/) - Local chapters for networking and events worldwide.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Related Lists
 
@@ -185,6 +206,8 @@ hands off to rather than duplicates.
 
 - [Awesome Data Analysis](https://github.com/PavelGrigoryevDS/awesome-data-analysis) - Data analysis resources: Python, SQL, statistics, and visualization.
 - [Awesome Data Science](https://github.com/academic/awesome-datascience) - Broad data science list spanning analysis, modeling, and learning paths.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
 ## Contributing
 
