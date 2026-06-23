@@ -17,6 +17,7 @@ Entries are ordered roughly from **modern and widely-adopted** at the top of eac
 - [Integration Analysis](#integration-analysis)
 - [Requirements Management Tools](#requirements-management-tools)
 - [Frameworks & Bodies of Knowledge](#frameworks--bodies-of-knowledge)
+- [Domains](#domains)
 - [Templates](#templates)
 - [Certifications](#certifications)
 - [Learning Resources](#learning-resources)
@@ -105,6 +106,42 @@ The canonical standards and *BOK references that define the profession.
 - [DAMA-DMBOK](https://www.dama.org) - Data Management Body of Knowledge for data-focused analysis.
 - [TOGAF](https://www.opengroup.org/togaf) - The Open Group's enterprise architecture framework.
 - [ISO/IEC/IEEE 29148](https://www.iso.org/standard/72089.html) - International standard for requirements engineering.
+
+## Domains
+
+Industry-specific standards, reference models, and bodies of knowledge for domain analysts.
+
+### Telecommunications
+
+- [TM Forum](https://www.tmforum.org) - Open Digital Framework: eTOM, SID, TAM, and Open APIs.
+- [3GPP](https://www.3gpp.org) - Standards for mobile networks (4G, 5G, and beyond).
+- [MEF](https://www.mef.net) - Standards and APIs for carrier-grade network services (LSO, MEF 3.0).
+
+### Insurance
+
+- [ACORD](https://www.acord.org) - Global data and messaging standards for the insurance industry.
+- [OMG Insurance](https://www.omg.org/hot-topics/insurance.htm) - Modeling standards and specifications for insurance.
+- [Solvency II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en) - EU regulatory framework for insurers (reporting and risk).
+
+### Banking
+
+- [BIAN](https://bian.org) - Banking Industry Architecture Network: a reference service landscape.
+- [ISO 20022](https://www.iso20022.org) - Universal standard for financial messaging.
+- [Open Banking](https://www.openbanking.org.uk) - Standards and APIs for account access and payments.
+- [SWIFT](https://www.swift.com/standards) - Messaging standards for cross-border financial transactions.
+
+### Travel
+
+- [IATA NDC](https://www.iata.org/en/programs/airline-distribution/retailing/ndc/) - XML standard for modern airline retailing and distribution.
+- [OpenTravel Alliance](https://opentravel.org) - Open specifications for exchanging travel data.
+- [HTNG](https://www.htng.org) - Technology standards for the hospitality industry.
+
+### Other Industries
+
+- [HL7 FHIR](https://www.hl7.org/fhir/) - Interoperability standard for healthcare data.
+- [ARTS](https://www.omg.org/retail/) - Retail standards (data model, operational reference) via OMG.
+- [GS1](https://www.gs1.org) - Supply-chain standards for product identification and data exchange.
+- [FpML](https://www.fpml.org) - XML standard for complex financial derivatives.
 
 ## Templates
 
