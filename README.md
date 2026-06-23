@@ -1,104 +1,147 @@
 # Awesome Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome tools, libraries, frameworks, and resources for data analysis.
+> A curated list of awesome tools, frameworks, standards, and resources for business and systems analysis.
 
-Analysis turns raw data into understanding. This list collects the best tools and learning
-material across the analysis workflow — from collecting and cleaning data to exploring,
-modeling, visualizing, and communicating results.
+Business and systems analysis turns stakeholder needs into clear, verifiable requirements and
+designs. This list collects the best of the discipline — from AI-assisted and code-driven
+workflows to classic bodies of knowledge, modeling notations, and templates.
+
+Entries are ordered roughly from **modern and widely-adopted** at the top of each section to
+**more specialized or foundational** toward the bottom.
 
 ## Contents
 
-- [Languages & Environments](#languages--environments)
-- [Data Wrangling](#data-wrangling)
-- [Statistical Analysis](#statistical-analysis)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Visualization](#visualization)
-- [Notebooks & Reporting](#notebooks--reporting)
-- [Business Intelligence](#business-intelligence)
-- [Big Data](#big-data)
+- [AI & Agentic Analysis](#ai--agentic-analysis)
+- [Requirements as Code](#requirements-as-code)
+- [Modeling & Diagrams as Code](#modeling--diagrams-as-code)
+- [Integration Analysis](#integration-analysis)
+- [Requirements Management Tools](#requirements-management-tools)
+- [Frameworks & Bodies of Knowledge](#frameworks--bodies-of-knowledge)
+- [Templates](#templates)
+- [Certifications](#certifications)
 - [Learning Resources](#learning-resources)
 - [Books](#books)
-- [Datasets](#datasets)
 - [Community](#community)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Languages & Environments
+## AI & Agentic Analysis
 
-- [Python](https://www.python.org) - General-purpose language with a rich data ecosystem.
-- [R](https://www.r-project.org) - Language and environment built for statistical computing.
-- [Julia](https://julialang.org) - High-performance language for technical computing.
-- [SQL](https://en.wikipedia.org/wiki/SQL) - Standard language for querying relational data.
+Using LLMs and autonomous agents to elicit, draft, refine, and trace requirements.
 
-## Data Wrangling
+- [Model Context Protocol](https://modelcontextprotocol.io) - Open standard for connecting AI agents to tools and data sources.
+- [Claude](https://claude.ai) - Assistant strong at drafting requirements, user stories, and acceptance criteria.
+- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer that also drafts specs, diagrams, and ADRs in-repo.
+- [Cursor](https://cursor.com) - AI-first editor useful for editing specs and diagrams-as-code with context.
+- [ChatPRD](https://www.chatprd.ai) - AI copilot for product requirement documents and user stories.
+- [LangChain](https://www.langchain.com) - Framework for building custom analysis and elicitation agents.
+- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Patterns and examples for building agentic workflows.
 
-- [pandas](https://pandas.pydata.org) - Fast, flexible data structures for Python.
-- [Polars](https://pola.rs) - Lightning-fast DataFrame library powered by Rust.
-- [dplyr](https://dplyr.tidyverse.org) - Grammar of data manipulation for R.
-- [DuckDB](https://duckdb.org) - In-process analytical SQL database.
+## Requirements as Code
 
-## Statistical Analysis
+Treating requirements and specifications as plain-text, version-controlled artifacts.
 
-- [statsmodels](https://www.statsmodels.org) - Statistical models and tests in Python.
-- [SciPy](https://scipy.org) - Fundamental algorithms for scientific computing.
-- [scikit-learn](https://scikit-learn.org) - Machine learning and statistical modeling in Python.
-- [Stan](https://mc-stan.org) - Platform for Bayesian statistical modeling.
+- [Gherkin](https://cucumber.io/docs/gherkin/) - Business-readable language for executable, behavior-driven specifications.
+- [Cucumber](https://cucumber.io) - BDD tool that runs Gherkin scenarios as living documentation.
+- [Markdown](https://www.markdownguide.org) - Lightweight plain-text format, the backbone of docs-as-code.
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - Popular static-site generator for project documentation.
+- [Docusaurus](https://docusaurus.io) - Static-site generator for versioned documentation sites.
+- [AsciiDoc](https://asciidoc.org) - Rich plain-text authoring format for technical documentation.
+- [StrictDoc](https://github.com/strictdoc-project/strictdoc) - Text-based requirements management with tracing and export.
+- [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version-controlled text files.
+- [OpenFastTrace](https://github.com/itsallcode/openfasttrace) - Requirements tracing suite for plain-text artifacts.
+- [ReqIF](https://www.omg.org/reqif/) - OMG standard for exchanging requirements between tools.
 
-## Exploratory Data Analysis
+## Modeling & Diagrams as Code
 
-- [ydata-profiling](https://github.com/ydataai/ydata-profiling) - One-line exploratory data analysis reports.
-- [Sweetviz](https://github.com/fbdesignpro/sweetviz) - High-density visualizations for EDA.
-- [D-Tale](https://github.com/man-group/dtale) - Web client for visualizing pandas data structures.
+Notations and tools for process, data, and architecture models — text-first where possible.
 
-## Visualization
+- [Mermaid](https://mermaid.js.org) - Diagrams from text, rendered natively in Markdown and many tools.
+- [PlantUML](https://plantuml.com) - Text-based UML and more (sequence, class, activity, C4).
+- [C4 model](https://c4model.com) - Lean approach to visualizing software architecture at four levels.
+- [Structurizr](https://structurizr.com) - Tooling for the C4 model with diagrams defined as code.
+- [BPMN](https://www.bpmn.org) - OMG standard notation for modeling business processes.
+- [bpmn.io](https://bpmn.io) - Open-source web toolkit for viewing and editing BPMN, DMN, and forms.
+- [Camunda Modeler](https://camunda.com/platform/modeler/) - Desktop modeler for BPMN and DMN.
+- [draw.io](https://www.drawio.com) - Free, general-purpose diagramming tool.
+- [Excalidraw](https://excalidraw.com) - Virtual whiteboard for quick, hand-drawn-style diagrams.
+- [UML](https://www.uml.org) - OMG's Unified Modeling Language for software systems.
+- [Archi](https://www.archimatetool.com) - Open-source modeling tool for the ArchiMate enterprise architecture language.
 
-- [Matplotlib](https://matplotlib.org) - Comprehensive plotting library for Python.
-- [seaborn](https://seaborn.pydata.org) - Statistical data visualization built on Matplotlib.
-- [Plotly](https://plotly.com/python/) - Interactive, publication-quality graphs.
-- [ggplot2](https://ggplot2.tidyverse.org) - Declarative graphics for R based on the grammar of graphics.
-- [Vega-Lite](https://vega.github.io/vega-lite/) - High-level grammar of interactive graphics.
+## Integration Analysis
 
-## Notebooks & Reporting
+Designing and analyzing interfaces, contracts, and data exchange between systems.
 
-- [Jupyter](https://jupyter.org) - Interactive notebooks for code, visualizations, and narrative.
-- [Quarto](https://quarto.org) - Open-source scientific and technical publishing system.
-- [Observable](https://observablehq.com) - Reactive notebooks for data exploration on the web.
+- [OpenAPI Specification](https://www.openapis.org) - Standard, language-agnostic description for REST APIs.
+- [Swagger](https://swagger.io) - Toolset for designing, documenting, and trying out OpenAPI definitions.
+- [Postman](https://www.postman.com) - Platform for exploring, testing, and documenting APIs.
+- [AsyncAPI](https://www.asyncapi.com) - Specification for event-driven and message-based APIs.
+- [JSON Schema](https://json-schema.org) - Vocabulary for validating and documenting JSON data structures.
+- [GraphQL](https://graphql.org) - Query language and runtime for typed API contracts.
+- [gRPC](https://grpc.io) - High-performance RPC framework using Protocol Buffers contracts.
+- [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
+- [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
 
-## Business Intelligence
+## Requirements Management Tools
 
-- [Metabase](https://www.metabase.com) - Open-source business intelligence and dashboards.
-- [Apache Superset](https://superset.apache.org) - Modern data exploration and visualization platform.
-- [Tableau](https://www.tableau.com) - Interactive data visualization and analytics platform.
-- [Power BI](https://powerbi.microsoft.com) - Business analytics service by Microsoft.
+- [Jira](https://www.atlassian.com/software/jira) - Widely-used issue and backlog tracker for agile teams.
+- [Confluence](https://www.atlassian.com/software/confluence) - Collaborative workspace for specifications and documentation.
+- [Azure DevOps](https://azure.microsoft.com/products/devops) - Boards, backlogs, and traceability for work items.
+- [Notion](https://www.notion.so) - Flexible docs-and-database workspace for lightweight requirements.
+- [Aha!](https://www.aha.io) - Product roadmapping and requirements management.
+- [Jama Connect](https://www.jamasoftware.com) - Requirements, risk, and test management for complex products.
+- [IBM DOORS Next](https://www.ibm.com/products/requirements-management-doors-next) - Enterprise requirements management for regulated industries.
+- [ReqView](https://www.reqview.com) - Lightweight requirements management with full traceability.
 
-## Big Data
+## Frameworks & Bodies of Knowledge
 
-- [Apache Spark](https://spark.apache.org) - Unified engine for large-scale data processing.
-- [Dask](https://www.dask.org) - Parallel computing for analytics in Python.
-- [Apache Arrow](https://arrow.apache.org) - In-memory columnar format for fast analytics.
+The canonical standards and *BOK references that define the profession.
+
+- [BABOK Guide](https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/) - IIBA's Business Analysis Body of Knowledge, the core reference for BAs.
+- [IREB CPRE](https://www.ireb.org/en/cpre/) - Requirements engineering body of knowledge and certification syllabus.
+- [BPM CBOK](https://www.abpmp.org) - ABPMP's Business Process Management Common Body of Knowledge.
+- [PMBOK Guide](https://www.pmi.org) - PMI's project management body of knowledge, adjacent to analysis work.
+- [SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering) - IEEE's Software Engineering Body of Knowledge.
+- [DAMA-DMBOK](https://www.dama.org) - Data Management Body of Knowledge for data-focused analysis.
+- [TOGAF](https://www.opengroup.org/togaf) - The Open Group's enterprise architecture framework.
+- [ISO/IEC/IEEE 29148](https://www.iso.org/standard/72089.html) - International standard for requirements engineering.
+
+## Templates
+
+- [arc42](https://arc42.org) - Pragmatic template for documenting software architectures.
+- [Architecture Decision Records](https://adr.github.io) - Lightweight format for capturing significant decisions.
+- [MADR](https://github.com/adr/madr) - Markdown Any Decision Records template and toolkit.
+- [Volere Requirements Template](https://www.volere.org/templates/volere-requirements-specification-template/) - Comprehensive requirements specification template.
+- [User Story Mapping](https://www.jpattonassociates.com/story-mapping/) - Technique and template for framing backlogs around user journeys.
+- [Business Analysis Templates](https://github.com/joelparkerhenderson/business-analysis) - Collection of practical BA templates and checklists.
+
+## Certifications
+
+- [IIBA Certifications](https://www.iiba.org/business-analysis-certifications/) - ECBA, CCBA, CBAP, plus specialized credentials (agile, data, product).
+- [PMI-PBA](https://www.pmi.org/certifications/business-analysis-pba) - PMI Professional in Business Analysis.
+- [IREB CPRE](https://www.ireb.org/en/cpre/) - Certified Professional for Requirements Engineering.
+- [BCS Business Analysis](https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis-certifications/) - BCS (ISEB) diploma and certificates in business analysis.
 
 ## Learning Resources
 
-- [Kaggle Learn](https://www.kaggle.com/learn) - Short, hands-on courses on data analysis.
-- [freeCodeCamp Data Analysis](https://www.freecodecamp.org/learn/data-analysis-with-python/) - Free data analysis with Python certification.
-- [Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Interactive SQL tutorial for analysts.
+- [Modern Analyst](https://www.modernanalyst.com) - Articles, templates, and a large BA community library.
+- [Bridging the Gap](https://www.bridging-the-gap.com) - Practical guidance for new and transitioning business analysts.
+- [BA Times](https://www.batimes.com) - News, articles, and webinars on business analysis.
+- [IIBA](https://www.iiba.org) - The International Institute of Business Analysis and its resources.
 
 ## Books
 
-- [Python for Data Analysis](https://wesmckinney.com/book/) - By Wes McKinney, creator of pandas. (Free online)
-- [R for Data Science](https://r4ds.hadley.nz) - By Hadley Wickham and Garrett Grolemund. (Free online)
-- [Think Stats](https://greenteapress.com/wp/think-stats-2e/) - Exploratory data analysis in Python. (Free)
-
-## Datasets
-
-- [Kaggle Datasets](https://www.kaggle.com/datasets) - Large collection of public datasets.
-- [Google Dataset Search](https://datasetsearch.research.google.com) - Search engine for datasets.
-- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) - Topic-centric list of high-quality datasets.
+- [Software Requirements](https://www.microsoftpressstore.com/store/software-requirements-9780735679665) - By Karl Wiegers and Joy Beatty; a foundational requirements text.
+- [Mastering the Requirements Process](https://www.volere.org/books/) - By Suzanne and James Robertson; the Volere approach.
+- [User Stories Applied](https://www.mountaingoatsoftware.com/books/user-stories-applied) - By Mike Cohn; writing and managing user stories.
+- [Writing Effective Use Cases](https://www.pearson.com/en-us/subject-catalog/p/writing-effective-use-cases/P200000009127) - By Alistair Cockburn; the classic on use cases.
+- [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - By Eric Evans; modeling complex business domains.
 
 ## Community
 
-- [r/dataanalysis](https://www.reddit.com/r/dataanalysis/) - Subreddit for data analysis discussion.
-- [Cross Validated](https://stats.stackexchange.com) - Q&A site for statistics and data analysis.
+- [r/businessanalysis](https://www.reddit.com/r/businessanalysis/) - Subreddit for business analysis discussion.
+- [Modern Analyst Forums](https://www.modernanalyst.com/Community.aspx) - Long-running community Q&A for analysts.
+- [IIBA Chapters](https://www.iiba.org/iiba-chapters/) - Local chapters for networking and events worldwide.
 
 ## Contributing
 
