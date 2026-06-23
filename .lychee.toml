@@ -16,3 +16,12 @@ user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
 
 # Don't fail the build on transient mailto/anchor checks.
 exclude_mail = true
+
+# These depend on repository settings being switched on. Remove each entry
+# once the corresponding feature is live:
+#   - GitHub Pages: Settings -> Pages -> Deploy from branch `main`
+#   - Discussions:  Settings -> General -> Features -> Discussions
+exclude = [
+  "https://sbarkalov.github.io/awesome-analysis/",
+  "https://github.com/sbarkalov/awesome-analysis/discussions",
+]

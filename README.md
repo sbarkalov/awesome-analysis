@@ -2,6 +2,10 @@
 
 > A curated list of awesome tools, frameworks, standards, and resources for business and systems analysis.
 
+📖 **For comfortable reading:** [Web version](https://sbarkalov.github.io/awesome-analysis/)
+
+✨ **Spotted a gap?** [Suggest an addition](https://github.com/sbarkalov/awesome-analysis/issues/new) or [start a discussion](https://github.com/sbarkalov/awesome-analysis/discussions)
+
 Business and systems analysis turns stakeholder needs into clear, verifiable requirements and
 designs. This list collects the best of the discipline — from AI-assisted and code-driven
 workflows to classic bodies of knowledge, modeling notations, and templates.
