@@ -60,6 +60,7 @@
     font-size: .9rem; width: 200px; max-width: 40vw;
   }
   .search:focus { outline: none; border-color: var(--accent); }
+  .toc .search { width: 100%; max-width: none; margin-bottom: .85rem; }
   .no-results { color: var(--text-dim); padding: 1rem 0; display: none; }
 
   .layout {
@@ -124,7 +125,8 @@
 
   @media (max-width: 860px) {
     .layout { grid-template-columns: 1fr; }
-    .toc { display: none; }
+    .toc { position: static; max-height: none; }
+    #tocList { display: none; }
   }
 </style>
 </head>
@@ -132,14 +134,16 @@
   <div class="topbar">
     <span class="brand">📊 Awesome Analysis</span>
     <span class="actions">
-      <input type="search" id="search" class="search" placeholder="🔍 Search…" aria-label="Search entries" autocomplete="off">
       <a href="https://github.com/sbarkalov/awesome-analysis" title="View on GitHub">GitHub</a>
       <button class="toggle" id="themeToggle" aria-label="Toggle color theme">🌙 Dark</button>
     </span>
   </div>
 
   <div class="layout">
-    <nav class="toc" id="toc" aria-label="Table of contents"></nav>
+    <nav class="toc" id="toc" aria-label="Table of contents">
+      <input type="search" id="search" class="search" placeholder="🔍 Search…" aria-label="Search entries" autocomplete="off">
+      <div class="toc-list" id="tocList"></div>
+    </nav>
     <main class="content" id="content">Loading…</main>
   </div>
 
@@ -178,6 +182,7 @@
 
     var content = document.getElementById('content');
     var tocEl = document.getElementById('toc');
+    var tocList = document.getElementById('tocList');
 
     fetch('README.md', { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
@@ -218,7 +223,7 @@
       var title = document.createElement('div');
       title.className = 'toc-title';
       title.textContent = 'Contents';
-      tocEl.appendChild(title);
+      tocList.appendChild(title);
 
       headings.forEach(function (h) {
         if (!h.id) return;
@@ -239,7 +244,7 @@
           currentSubUl = subUl;
         }
       });
-      tocEl.appendChild(rootUl);
+      tocList.appendChild(rootUl);
     }
 
     function setupScrollSpy() {
@@ -308,7 +313,7 @@
           });
         });
         empty.style.display = 'none';
-        if (tocEl) tocEl.style.display = '';
+        if (tocList) tocList.style.display = '';
       }
 
       function applyFilter(q) {
@@ -333,7 +338,7 @@
           if (sectionVisible) anyResult = true;
         });
         empty.style.display = anyResult ? 'none' : 'block';
-        if (tocEl) tocEl.style.display = 'none';
+        if (tocList) tocList.style.display = 'none';
       }
 
       input.addEventListener('input', function () {
