@@ -162,7 +162,7 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 - [IATA NDC](https://www.iata.org/en/programs/airline-distribution/retailing/ndc/) - XML standard for modern airline retailing and distribution.
 - [OpenTravel Alliance](https://opentravel.org) - Open specifications for exchanging travel data.
-- [HTNG](https://www.htng.org) - Technology standards for the hospitality industry.
+- [HTNG](https://www.ahla.com/htng) - Hospitality technology standards (now part of AHLA).
 
 ### Other Industries
 
@@ -180,7 +180,6 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [MADR](https://github.com/adr/madr) - Markdown Any Decision Records template and toolkit.
 - [Volere Requirements Template](https://www.volere.org/templates/volere-requirements-specification-template/) - Comprehensive requirements specification template.
 - [User Story Mapping](https://www.jpattonassociates.com/story-mapping/) - Technique and template for framing backlogs around user journeys.
-- [Business Analysis Templates](https://github.com/joelparkerhenderson/business-analysis) - Collection of practical BA templates and checklists.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
