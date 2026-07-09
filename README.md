@@ -18,6 +18,7 @@ product analytics, and templates.
 - [Modeling & Diagrams as Code](#modeling--diagrams-as-code)
 - [Integration Analysis](#integration-analysis)
 - [Product Analysis](#product-analysis)
+- [Agile & Delivery](#agile--delivery)
 - [Requirements Management Tools](#requirements-management-tools)
 - [Frameworks & Bodies of Knowledge](#frameworks--bodies-of-knowledge)
 - [Domains](#domains)
@@ -71,6 +72,8 @@ Notations and tools for process, data, and architecture models — text-first wh
 - [Camunda Modeler](https://camunda.com/platform/modeler/) - Desktop modeler for BPMN and DMN.
 - [draw.io](https://www.drawio.com) - Free, general-purpose diagramming tool.
 - [Excalidraw](https://excalidraw.com) - Virtual whiteboard for quick, hand-drawn-style diagrams.
+- [Lucidchart](https://www.lucidchart.com) - Web-based diagramming for flowcharts, ERDs, and UML.
+- [Sparx Enterprise Architect](https://sparxsystems.com/products/ea/) - Modeling platform for UML, BPMN, SysML, and ArchiMate.
 - [UML](https://www.uml.org) - OMG's Unified Modeling Language for software systems.
 - [Archi](https://www.archimatetool.com) - Open-source modeling tool for the ArchiMate enterprise architecture language.
 
@@ -82,11 +85,17 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 
 - [OpenAPI Specification](https://www.openapis.org) - Standard, language-agnostic description for REST APIs.
 - [Swagger](https://swagger.io) - Toolset for designing, documenting, and trying out OpenAPI definitions.
+- [Redoc](https://redocly.com/docs/redoc) - Renders OpenAPI definitions into readable reference docs.
 - [Postman](https://www.postman.com) - Platform for exploring, testing, and documenting APIs.
 - [AsyncAPI](https://www.asyncapi.com) - Specification for event-driven and message-based APIs.
 - [JSON Schema](https://json-schema.org) - Vocabulary for validating and documenting JSON data structures.
+- [JSON:API](https://jsonapi.org) - Specification for building conventional JSON APIs.
 - [GraphQL](https://graphql.org) - Query language and runtime for typed API contracts.
 - [gRPC](https://grpc.io) - High-performance RPC framework using Protocol Buffers contracts.
+- [Google Cloud API Design Guide](https://cloud.google.com/apis/design) - General design guidance for networked APIs.
+- [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) - Widely-referenced guidelines for designing REST APIs.
+- [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist) - Key security countermeasures for designing and releasing APIs.
+- [Apigee](https://cloud.google.com/apigee) - API management platform for designing and governing APIs.
 - [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
 
@@ -104,6 +113,15 @@ Understanding product usage, opportunities, and outcomes to inform what to build
 - [GrowthBook](https://www.growthbook.io) - Open-source feature flagging and A/B testing.
 - [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
 - [Jobs to be Done](https://jtbd.info) - Framework for the progress customers are trying to make.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
+## Agile & Delivery
+
+Frameworks and comparisons for iterative delivery of analysis and product work.
+
+- [The Scrum Guide](https://scrumguides.org/) - The definitive rules of the Scrum framework by its creators.
+- [Kanban vs Scrum](https://www.atlassian.com/agile/kanban/kanban-vs-scrum) - Atlassian's practical comparison of the two agile approaches.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -148,6 +166,8 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 ### Insurance
 
 - [ACORD](https://www.acord.org) - Global data and messaging standards for the insurance industry.
+- [IFRS 17](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/) - Accounting standard for insurance contracts.
+- [NAIC](https://www.naic.org) - US insurance regulatory standards and data reporting.
 
 ### Banking
 
@@ -165,7 +185,6 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 ### Other Industries
 
 - [HL7 FHIR](https://www.hl7.org/fhir/) - Interoperability standard for healthcare data.
-- [ARTS](https://www.omg.org/retail/) - Retail standards (data model, operational reference) via OMG.
 - [GS1](https://www.gs1.org) - Supply-chain standards for product identification and data exchange.
 - [FpML](https://www.fpml.org) - XML standard for complex financial derivatives.
 
@@ -196,6 +215,9 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [Bridging the Gap](https://www.bridging-the-gap.com) - Practical guidance for new and transitioning business analysts.
 - [BA Times](https://www.batimes.com) - News, articles, and webinars on business analysis.
 - [IIBA](https://www.iiba.org) - The International Institute of Business Analysis and its resources.
+- [Analyst Roadmap](https://github.com/analystRoadmap/analyst_book) - Open roadmap of skills for business and systems analysts.
+- [The API Book](https://twirl.github.io/The-API-Book/) - Free online book on designing APIs, by Sergey Konstantinov.
+- [Learn API Documentation](https://idratherbewriting.com/learnapidoc/) - Comprehensive course on documenting REST APIs.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -219,11 +241,13 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 ## Related Lists
 
-Adjacent domains, including data analysis — the quantitative subdomain this list deliberately
-hands off to rather than duplicates.
+Adjacent domains and specialties this list points to rather than duplicates — including data
+analysis, the quantitative subdomain it deliberately hands off.
 
 - [Awesome Data Analysis](https://github.com/PavelGrigoryevDS/awesome-data-analysis) - Data analysis resources: Python, SQL, statistics, and visualization.
 - [Awesome Data Science](https://github.com/academic/awesome-datascience) - Broad data science list spanning analysis, modeling, and learning paths.
+- [Awesome Integration](https://github.com/stn1slv/awesome-integration) - Curated list of system integration software and patterns.
+- [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) - Curated list of GraphQL resources and tools.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
