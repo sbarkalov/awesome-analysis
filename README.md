@@ -65,6 +65,7 @@ Treating requirements and specifications as plain-text, version-controlled artif
 Notations and tools for process, data, and architecture models — text-first where possible.
 
 - [Mermaid](https://mermaid.js.org) - Diagrams from text, rendered natively in Markdown and many tools.
+- [Mermaid Live Editor](https://mermaid.live) - Browser playground for authoring and sharing Mermaid diagrams.
 - [PlantUML](https://plantuml.com) - Text-based UML and more (sequence, class, activity, C4).
 - [C4 model](https://c4model.com) - Lean approach to visualizing software architecture at four levels.
 - [Structurizr](https://structurizr.com) - Tooling for the C4 model with diagrams defined as code.
