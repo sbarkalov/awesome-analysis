@@ -123,6 +123,7 @@ Understanding product usage, opportunities, and outcomes to inform what to build
 - [GrowthBook](https://www.growthbook.io) - Open-source feature flagging and A/B testing.
 - [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
 - [Jobs to be Done](https://jobs-to-be-done.com/) - Framework for the progress customers are trying to make.
+- [Outcome-Driven Innovation](https://strategyn.com/jobs-to-be-done/) - Strategyn's JTBD-based innovation method by Tony Ulwick.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
