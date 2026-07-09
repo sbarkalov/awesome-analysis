@@ -10,6 +10,10 @@ timeout = 30
 # check does not fail for links that work fine in a browser.
 accept = [200, 201, 202, 203, 204, 205, 206, 403, 429]
 
+# Transient CI timeouts on slow-but-live sites should not fail the build;
+# genuine breakages still return a 4xx/5xx status and are caught.
+accept_timeouts = true
+
 # Browser-like User-Agent to reduce bot blocking.
 user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
 
