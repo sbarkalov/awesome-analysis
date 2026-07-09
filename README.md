@@ -18,6 +18,7 @@ product analytics, and templates.
 - [Modeling & Diagrams as Code](#modeling--diagrams-as-code)
 - [Integration Analysis](#integration-analysis)
 - [Product Analysis](#product-analysis)
+- [Elicitation & Collaboration](#elicitation--collaboration)
 - [Agile & Delivery](#agile--delivery)
 - [Requirements Management Tools](#requirements-management-tools)
 - [Frameworks & Bodies of Knowledge](#frameworks--bodies-of-knowledge)
@@ -72,6 +73,7 @@ Notations and tools for process, data, and architecture models — text-first wh
 - [Camunda Modeler](https://camunda.com/platform/modeler/) - Desktop modeler for BPMN and DMN.
 - [draw.io](https://www.drawio.com) - Free, general-purpose diagramming tool.
 - [Excalidraw](https://excalidraw.com) - Virtual whiteboard for quick, hand-drawn-style diagrams.
+- [dbdiagram.io](https://dbdiagram.io) - Entity-relationship diagrams generated from a simple DSL.
 - [Lucidchart](https://www.lucidchart.com) - Web-based diagramming for flowcharts, ERDs, and UML.
 - [Sparx Enterprise Architect](https://sparxsystems.com/products/ea/) - Modeling platform for UML, BPMN, SysML, and ArchiMate.
 - [UML](https://www.uml.org) - OMG's Unified Modeling Language for software systems.
@@ -118,6 +120,20 @@ Understanding product usage, opportunities, and outcomes to inform what to build
 - [GrowthBook](https://www.growthbook.io) - Open-source feature flagging and A/B testing.
 - [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
 - [Jobs to be Done](https://jtbd.info) - Framework for the progress customers are trying to make.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
+## Elicitation & Collaboration
+
+Gathering requirements through workshops, surveys, interviews, and shared visual spaces.
+
+- [Miro](https://miro.com) - Online whiteboard for workshops, mapping, and facilitation.
+- [FigJam](https://www.figma.com/figjam/) - Collaborative whiteboard from Figma for diagrams and workshops.
+- [SurveyMonkey](https://www.surveymonkey.com) - Survey platform for stakeholder feedback and analytics.
+- [Typeform](https://www.typeform.com) - Conversational forms and surveys with high response rates.
+- [Mentimeter](https://www.mentimeter.com) - Live polls, quizzes, and Q&A for interactive sessions.
+- [Otter.ai](https://otter.ai) - AI meeting transcription for capturing interviews and notes.
+- [XMind](https://xmind.net) - Cross-platform mind mapping and brainstorming.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -231,6 +247,7 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [Software Requirements](https://www.microsoftpressstore.com/store/software-requirements-9780735679665) - By Karl Wiegers and Joy Beatty; a foundational requirements text.
 - [Mastering the Requirements Process](https://www.volere.org/books/) - By Suzanne and James Robertson; the Volere approach.
 - [User Stories Applied](https://www.mountaingoatsoftware.com/books/user-stories-applied) - By Mike Cohn; writing and managing user stories.
+- [User Story Mapping](https://www.oreilly.com/library/view/user-story-mapping/9781491904893/) - By Jeff Patton; framing backlogs around user journeys.
 - [Writing Effective Use Cases](https://www.pearson.com/en-us/subject-catalog/p/writing-effective-use-cases/P200000009127) - By Alistair Cockburn; the classic on use cases.
 - [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - By Eric Evans; modeling complex business domains.
 
