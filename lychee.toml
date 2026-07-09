@@ -22,5 +22,4 @@ user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
 exclude = [
   "iso20022.org",
   "swift.com",
-  "github.com/sbarkalov/awesome-analysis/discussions",
 ]
