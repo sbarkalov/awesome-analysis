@@ -89,12 +89,17 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 - [Postman](https://www.postman.com) - Platform for exploring, testing, and documenting APIs.
 - [AsyncAPI](https://www.asyncapi.com) - Specification for event-driven and message-based APIs.
 - [JSON Schema](https://json-schema.org) - Vocabulary for validating and documenting JSON data structures.
+- [XML Schema (XSD)](https://www.w3.org/TR/xmlschema11-1/) - W3C standard for defining and validating XML document structure.
 - [JSON:API](https://jsonapi.org) - Specification for building conventional JSON APIs.
 - [GraphQL](https://graphql.org) - Query language and runtime for typed API contracts.
 - [gRPC](https://grpc.io) - High-performance RPC framework using Protocol Buffers contracts.
+- [SOAP](https://www.w3.org/TR/soap12-part1/) - W3C messaging protocol still common in enterprise integrations.
+- [WSDL](https://www.w3.org/TR/wsdl20/) - W3C standard for describing SOAP and XML web service interfaces.
 - [Google Cloud API Design Guide](https://cloud.google.com/apis/design) - General design guidance for networked APIs.
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) - Widely-referenced guidelines for designing REST APIs.
 - [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist) - Key security countermeasures for designing and releasing APIs.
+- [OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749) - IETF authorization framework for delegated API access.
+- [JWT](https://jwt.io/introduction) - Compact token format for securely transmitting claims between parties.
 - [Apigee](https://cloud.google.com/apigee) - API management platform for designing and governing APIs.
 - [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
