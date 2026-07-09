@@ -131,7 +131,7 @@ The canonical standards and *BOK references that define the profession.
 - [SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering) - IEEE's Software Engineering Body of Knowledge.
 - [DAMA-DMBOK](https://www.dama.org) - Data Management Body of Knowledge for data-focused analysis.
 - [TOGAF](https://www.opengroup.org/togaf) - The Open Group's enterprise architecture framework.
-- [ISO/IEC/IEEE 29148](https://www.iso.org/standard/72089.html) - International standard for requirements engineering.
+- [ISO/IEC/IEEE 29148](https://ieeexplore.ieee.org/document/8559686) - International standard for requirements engineering.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -148,13 +148,11 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 ### Insurance
 
 - [ACORD](https://www.acord.org) - Global data and messaging standards for the insurance industry.
-- [OMG Insurance](https://www.omg.org/hot-topics/insurance.htm) - Modeling standards and specifications for insurance.
-- [Solvency II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en) - EU regulatory framework for insurers (reporting and risk).
 
 ### Banking
 
 - [BIAN](https://bian.org) - Banking Industry Architecture Network: a reference service landscape.
-- [ISO 20022](https://www.iso20022.org) - Universal standard for financial messaging.
+- [ISO 20022](https://www.iso20022.org/) - Universal standard for financial messaging.
 - [Open Banking](https://www.openbanking.org.uk) - Standards and APIs for account access and payments.
 - [SWIFT](https://www.swift.com/standards) - Messaging standards for cross-border financial transactions.
 
