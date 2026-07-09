@@ -122,7 +122,7 @@ Understanding product usage, opportunities, and outcomes to inform what to build
 - [Dovetail](https://dovetail.com) - Customer research repository for synthesizing user insights.
 - [GrowthBook](https://www.growthbook.io) - Open-source feature flagging and A/B testing.
 - [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
-- [Jobs to be Done](https://jtbd.info) - Framework for the progress customers are trying to make.
+- [Jobs to be Done](https://jobs-to-be-done.com/) - Framework for the progress customers are trying to make.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
