@@ -39,6 +39,8 @@ Using LLMs and autonomous agents to elicit, draft, refine, and trace requirement
 - [Cursor](https://cursor.com) - AI-first editor useful for editing specs and diagrams-as-code with context.
 - [ChatPRD](https://www.chatprd.ai) - AI copilot for product requirement documents and user stories.
 - [LangChain](https://www.langchain.com) - Framework for building custom analysis and elicitation agents.
+- [Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development with AI coding agents.
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) - Spec-driven workflow that aligns humans and AI agents before any code.
 - [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Patterns and examples for building agentic workflows.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
