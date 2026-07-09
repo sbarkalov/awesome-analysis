@@ -229,7 +229,7 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [IIBA Certifications](https://www.iiba.org/business-analysis-certifications/) - ECBA, CCBA, CBAP, plus specialized credentials (agile, data, product).
 - [PMI-PBA](https://www.pmi.org/certifications/business-analysis-pba) - PMI Professional in Business Analysis.
 - [IREB CPRE](https://www.ireb.org/en/cpre/) - Certified Professional for Requirements Engineering.
-- [BCS Business Analysis](https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis-certifications/) - BCS (ISEB) diploma and certificates in business analysis.
+- [BCS Business Analysis](https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis/) - BCS (ISEB) diploma and certificates in business analysis.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -260,7 +260,7 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 - [r/businessanalysis](https://www.reddit.com/r/businessanalysis/) - Subreddit for business analysis discussion.
 - [Modern Analyst Forums](https://www.modernanalyst.com/Community.aspx) - Long-running community Q&A for analysts.
-- [IIBA Chapters](https://www.iiba.org/iiba-chapters/) - Local chapters for networking and events worldwide.
+- [IIBA Chapters](https://www.iiba.org/business-analysis-membership/chapters/) - Local chapters for networking and events worldwide.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 

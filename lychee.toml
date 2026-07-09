@@ -1,0 +1,24 @@
+# Configuration for the lychee link checker (https://lychee.cli.rs)
+# NOTE: file must be named `lychee.toml` (not dotfile) and passed via --config.
+
+max_retries = 4
+retry_wait_time = 3
+timeout = 30
+
+# Some standards bodies and enterprise sites reject bot requests (403) or
+# rate-limit (429) instead of returning the real status. Accept these so the
+# check does not fail for links that work fine in a browser.
+accept = [200, 201, 202, 203, 204, 205, 206, 403, 429]
+
+# Browser-like User-Agent to reduce bot blocking.
+user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
+
+exclude_mail = true
+
+# Hosts that reliably time out in CI despite being valid, plus features gated
+# behind repo settings. Remove the Discussions entry once Discussions is enabled.
+exclude = [
+  "iso20022.org",
+  "swift.com",
+  "github.com/sbarkalov/awesome-analysis/discussions",
+]
