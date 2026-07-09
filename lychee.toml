@@ -13,8 +13,6 @@ accept = [200, 201, 202, 203, 204, 205, 206, 403, 429]
 # Browser-like User-Agent to reduce bot blocking.
 user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
 
-exclude_mail = true
-
 # Hosts that reliably time out in CI despite being valid, plus features gated
 # behind repo settings. Remove the Discussions entry once Discussions is enabled.
 exclude = [
