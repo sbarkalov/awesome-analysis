@@ -227,10 +227,24 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 ## Certifications
 
+### Business Analysis
+
 - [IIBA Certifications](https://www.iiba.org/business-analysis-certifications/) - ECBA, CCBA, CBAP, plus specialized credentials (agile, data, product).
 - [PMI-PBA](https://www.pmi.org/certifications/business-analysis-pba) - PMI Professional in Business Analysis.
 - [IREB CPRE](https://www.ireb.org/en/cpre/) - Certified Professional for Requirements Engineering.
 - [BCS Business Analysis](https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis/) - BCS (ISEB) diploma and certificates in business analysis.
+
+### Cloud
+
+- [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) - Foundational AWS cloud literacy for analysts working with cloud systems.
+- [Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) - Entry-level Azure cloud fundamentals (AZ-900).
+- [Google Cloud Digital Leader](https://cloud.google.com/learn/certification/cloud-digital-leader) - Foundational Google Cloud knowledge for non-engineers.
+
+### Product & Service Management
+
+- [ITIL 4 Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation) - Foundation in IT service management, common for IT-facing analysts.
+- [Pragmatic Institute](https://www.pragmaticinstitute.com/product/product-management-certification/) - Product management certification built on the Pragmatic Framework.
+- [Product School](https://productschool.com/certifications/product-manager-certification) - Product management certifications from beginner to executive.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
