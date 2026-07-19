@@ -17,6 +17,7 @@ product analytics, and templates.
 - [Requirements as Code](#requirements-as-code)
 - [Modeling & Diagrams as Code](#modeling--diagrams-as-code)
 - [Integration Analysis](#integration-analysis)
+- [Data Basics](#data-basics)
 - [Product Analysis](#product-analysis)
 - [Elicitation & Collaboration](#elicitation--collaboration)
 - [Agile & Delivery](#agile--delivery)
@@ -42,6 +43,11 @@ Using LLMs and autonomous agents to elicit, draft, refine, and trace requirement
 - [Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development with AI coding agents.
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec) - Spec-driven workflow that aligns humans and AI agents before any code.
 - [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Patterns and examples for building agentic workflows.
+- [ChatGPT](https://chatgpt.com) - OpenAI's assistant for drafting requirements, user stories, and analysis.
+- [Google Gemini](https://gemini.google.com) - Google's assistant for drafting, summarizing, and reasoning over specs.
+- [DeepSeek](https://www.deepseek.com) - Open-weight assistant useful for drafting and reasoning over requirements.
+- [Qwen](https://qwen.ai) - Alibaba's assistant and open model family for analysis tasks.
+- [Prompt Engineering Guide](https://www.promptingguide.ai) - Techniques like few-shot and chain-of-thought for reliable LLM use.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -108,6 +114,16 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 - [Apigee](https://cloud.google.com/apigee) - API management platform for designing and governing APIs.
 - [Pact](https://pact.io) - Consumer-driven contract testing for integrations.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) - Catalog of messaging patterns by Hohpe and Woolf.
+- [NIST RBAC](https://csrc.nist.gov/projects/role-based-access-control) - NIST model and INCITS 359 standard for role-based access control.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
+## Data Basics
+
+Foundational data and database skills for analysts. For deeper data analysis, see the [Related Lists](#related-lists) section.
+
+- [SQLBolt](https://sqlbolt.com) - Interactive lessons for learning SQL from scratch.
+- [PostgreSQL](https://www.postgresql.org) - Popular open-source relational database with thorough documentation.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
@@ -257,6 +273,10 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 - [Analyst Roadmap](https://github.com/analystRoadmap/analyst_book) - Open roadmap of skills for business and systems analysts.
 - [The API Book](https://twirl.github.io/The-API-Book/) - Free online book on designing APIs, by Sergey Konstantinov.
 - [Learn API Documentation](https://idratherbewriting.com/learnapidoc/) - Comprehensive course on documenting REST APIs.
+- [Coursera](https://www.coursera.org) - MOOC platform with analysis, product, and data courses.
+- [TutorialsPoint](https://www.tutorialspoint.com) - Free tutorials on SQL, UML, and technical topics.
+- [Atlassian University](https://university.atlassian.com) - Official training for Jira, Confluence, and agile ways of working.
+- [System Design Primer](https://github.com/donnemartin/system-design-primer) - Open guide to system design concepts and trade-offs.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
