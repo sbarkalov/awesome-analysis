@@ -120,7 +120,7 @@ Designing and analyzing interfaces, contracts, and data exchange between systems
 
 ## Data Basics
 
-Foundational data and database skills for analysts. For deeper data analysis, see [Awesome Data Analysis](https://github.com/PavelGrigoryevDS/awesome-data-analysis).
+Foundational data and database skills for analysts. For deeper data analysis, see the [Related Lists](#related-lists) section.
 
 - [SQLBolt](https://sqlbolt.com) - Interactive lessons for learning SQL from scratch.
 - [PostgreSQL](https://www.postgresql.org) - Popular open-source relational database with thorough documentation.
