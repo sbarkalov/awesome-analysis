@@ -61,7 +61,7 @@ Treating requirements and specifications as plain-text, version-controlled artif
 
 ## Modeling & Diagrams as Code
 
-Notations and tools for process, data, and architecture models — text-first where possible.
+Notations and tools for process, decision, data, and architecture models — text-first where possible.
 
 - [Mermaid](https://mermaid.js.org) - Diagrams from text, rendered natively in Markdown and many tools.
 - [Mermaid Live Editor](https://mermaid.live) - Browser playground for authoring and sharing Mermaid diagrams.
@@ -69,8 +69,11 @@ Notations and tools for process, data, and architecture models — text-first wh
 - [C4 model](https://c4model.com) - Lean approach to visualizing software architecture at four levels.
 - [Structurizr](https://structurizr.com) - Tooling for the C4 model with diagrams defined as code.
 - [BPMN](https://www.bpmn.org) - OMG standard notation for modeling business processes.
+- [DMN](https://www.omg.org/dmn/) - OMG standard for decision models and decision tables.
+- [SBVR](https://www.omg.org/spec/SBVR/) - OMG standard for business vocabularies and rules in structured natural language.
 - [bpmn.io](https://bpmn.io) - Open-source web toolkit for viewing and editing BPMN, DMN, and forms.
 - [Camunda Modeler](https://camunda.com/platform/modeler/) - Desktop modeler for BPMN and DMN.
+- [GoRules](https://github.com/gorules/zen) - Open-source rules engine with a visual decision table and graph editor.
 - [draw.io](https://www.drawio.com) - Free, general-purpose diagramming tool.
 - [Excalidraw](https://excalidraw.com) - Virtual whiteboard for quick, hand-drawn-style diagrams.
 - [Lucidchart](https://www.lucidchart.com) - Web-based diagramming for flowcharts, ERDs, and UML.
