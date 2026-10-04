@@ -135,6 +135,8 @@ Framing the business problem and the case for change before any solution exists.
 - [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html) - Goldratt's method for finding and managing the limiting constraint.
 - [5 Whys](https://www.lean.org/lexicon-terms/5-whys/) - Root cause technique from the Lean Enterprise Institute lexicon.
 - [ASQ Quality Topics](https://asq.org/quality-resources/learn-about-quality) - A to Z of quality and analysis techniques: Ishikawa, SIPOC, DMAIC.
+- [PM4Py](https://processintelligence.solutions/pm4py) - Open-source process mining library for Python.
+- [Process Mining](https://processmining.org) - Community reference site with techniques, public event logs, and courses.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
