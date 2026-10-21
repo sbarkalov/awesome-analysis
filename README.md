@@ -270,6 +270,7 @@ Industry-specific standards, reference models, and bodies of knowledge for domai
 
 - [HL7 FHIR](https://www.hl7.org/fhir/) - Interoperability standard for healthcare data.
 - [GS1](https://www.gs1.org) - Supply-chain standards for product identification and data exchange.
+- [SCOR](https://scor.ascm.org/processes/introduction) - ASCM's reference model for supply chain processes and metrics.
 - [FpML](https://www.fpml.org) - XML standard for complex financial derivatives.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
