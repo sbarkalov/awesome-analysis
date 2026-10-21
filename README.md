@@ -13,6 +13,7 @@
 - [Data & Domain Modeling](#data--domain-modeling)
 - [Business Analysis](#business-analysis)
 - [Product Analysis](#product-analysis)
+- [BI & Dashboards](#bi--dashboards)
 - [Systems Thinking](#systems-thinking)
 - [Elicitation & Collaboration](#elicitation--collaboration)
 - [Agile Requirements](#agile-requirements)
@@ -153,6 +154,16 @@ Understanding product usage, opportunities, and outcomes to inform what to build
 - [Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/) - Teresa Torres's model for continuous product discovery.
 - [Jobs to be Done](https://jobs-to-be-done.com/) - Framework for the progress customers are trying to make.
 - [Outcome-Driven Innovation](https://strategyn.com/jobs-to-be-done/) - Strategyn's JTBD-based innovation method by Tony Ulwick.
+
+<p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
+
+## BI & Dashboards
+
+Reporting and dashboard tools for sharing metrics and findings with stakeholders.
+
+- [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) - Microsoft's self-service BI for reports and interactive dashboards.
+- [Tableau](https://www.tableau.com) - Visual analytics platform for exploring data and building dashboards.
+- [Airtable](https://www.airtable.com) - Spreadsheet-database hybrid with views and dashboards for structured data.
 
 <p align="right">(<a href="#contents">↑ back to top ↑</a>)</p>
 
