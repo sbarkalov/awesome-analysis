@@ -183,6 +183,7 @@ Reasoning about feedback loops, delays, and leverage points before specifying a 
 
 Gathering requirements through workshops, surveys, interviews, and shared visual spaces.
 
+- [Novastart](https://novastart.com/) - Infinite canvas whiteboard OS with apps, shared canvases, and AI agents for visual collaboration.
 - [Miro](https://miro.com) - Online whiteboard for workshops, mapping, and facilitation.
 - [FigJam](https://www.figma.com/figjam/) - Collaborative whiteboard from Figma for diagrams and workshops.
 - [SurveyMonkey](https://www.surveymonkey.com) - Survey platform for stakeholder feedback and analytics.
